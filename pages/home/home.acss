@@ -1,0 +1,53 @@
+*{
+  border-radius: 10px;
+}
+.time{
+  margin-top: 20px;
+  text-align: center;
+}
+.time view{
+  display: inline;
+  color: rgb(41, 151, 151);
+}
+.information-cover{
+  margin-top: 20px;
+  border: solid 1px rgb(95, 86, 180);
+}
+.btn-cover{
+  width: auto;
+  height: 200px;
+  /* border: solid 4px rgb(116, 109, 180); */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 20px;
+  /* background-color: #6CB6DF; */
+}
+.btn-img{
+  width: 60%;
+  height: 60%;
+  border: solid #74caf8;
+}
+.btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  width: 45%;
+  height: 45%;
+  flex: 0 0 25%; /* 每个元素占据 25% 的宽度 */
+  /* border: solid white 1px; */
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0.4rem;
+  background-color: transparent;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 15px;
+  margin-top: 2px;
+}

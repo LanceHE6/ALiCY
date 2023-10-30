@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/chatGPT/chatGPT",
+    "pages/login/login",
+    "pages/home/home",
+    "pages/timeTable/timeTable",
+    "pages/user/user"
+    
+  ],
+  "window": {
+    "defaultTitle": "Ali重邮"
+  },
+  "behavior": {
+    "requestReferrerStrategy": "page"
+  },
+  "tabBar": {
+    "textColor": "black",
+    "selectedColor": "#87ceeb",
+    "backgroundColor": "white",
+    "items": [
+      {
+        "pagePath": "pages/home/home",
+        "name": "首页",
+        "icon": "images/tableBar/home.png",
+        "activeIcon": "images/tableBar/home-a.png"
+      },
+      {
+        "pagePath": "pages/timeTable/timeTable",
+        "name": "课表",
+        "icon": "images/tableBar/tt.png",
+        "activeIcon": "images/tableBar/timeTable-a.png"
+      },
+      {
+        "pagePath": "pages/chatGPT/chatGPT",
+        "name": "智问",
+        "icon": "images/tableBar/chatGPT.png",
+        "activeIcon": "images/tableBar/chatGPT-a.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "name": "我的",
+        "icon": "images/tableBar/user.png",
+        "activeIcon": "images/tableBar/user-a.png"
+      }
+    ]
+  }
+}

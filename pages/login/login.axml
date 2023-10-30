@@ -1,0 +1,10 @@
+<view class="body">
+  <view class="shell">
+    <form action="" method="" class="form" id="form">
+      <view class="form-title">Ali重邮</view>
+      <input placeholder="统一认证码" type="digit" class="form-input"/> 
+      <input placeholder="密码" type="text" class="form-input" password />
+      <button size="default" type="primary" class="login-btn" onTap="login">登录</button>
+    </form>
+</view>
+</view>

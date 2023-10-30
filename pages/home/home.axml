@@ -1,0 +1,34 @@
+<view class="body">
+  <view class="time">
+    今天是<view>{{time.year}}</view>年<view>{{time.month}}</view>月<view>{{time.day}}</view>日，第<view>{{time.week}}</view>周星期<view>{{time.weekday}}</view>
+  </view>
+  <view class="information-cover">
+    <!-- <title slot="header">滑动</title> -->
+    <swiper indicator-dots="{{true}}" class="information" autoplay={{true}} circular={{true}}>
+      <block a:for={{images}}>
+        <swiper-item>
+          <!-- 0 / cover 自动适应页面大小 -->
+          <view style="background: url({{item}}) 0 / cover ;width:100%;height:300rpx;border-radius:16rpx;"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="btn-cover">
+
+    <view class="btn-box">
+        <cover-image src="/images/pages/news.png" class="btn-img"/>
+        <button class="btn">校园资讯</button> 
+    </view>
+
+    <view class="btn-box">
+      <cover-image src="/images/pages/timeTable.png" class="btn-img"/>
+      <button class="btn">课表查询</button>
+    </view>
+
+    <view class="btn-box">
+      <cover-image src="/images/pages/examination.png" class="btn-img"/>
+      <button class="btn">考试安排</button>
+    </view>
+
+  </view>
+</view>
